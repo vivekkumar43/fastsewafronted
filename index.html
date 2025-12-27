@@ -21,6 +21,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#why-choose">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn-nav hide-mobile">Login/Signup</a></li>
                 <li><a href="#contact" class="btn-nav hide-mobile">Get Started</a></li>
             </ul>
             <div class="hamburger">
@@ -32,16 +33,47 @@
     </nav>
 
     <header id="home" class="hero">
-        <div class="container hero-content reveal">
-            <h1>FastSewa Super Portal</h1>
+        <div class="hero-slideshow">
+    <!-- Slide 1: Construction Service -->
+    <div class="hero-slide active" style="background-image: url('1.png');"></div>
+    
+    <!-- Slide 2: Security Service -->
+    <div class="hero-slide" style="background-image: url('image/2.jpeg');"></div>
+    
+    <!-- Slide 3: Medical Service -->
+    <div class="hero-slide" style="background-image: url('image/3.jpeg');"></div>
+    
+    <!-- Slide 4: Legal Service -->
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+    
+    <!-- Slide 5: Repair Service -->
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+</div>
+        <div class="hero-content">
+            <h1 class="reveal">FastSewa Super Portal</h1>
             <h2>9 Essential Services, One Platform</h2>
-            <p>Your trusted partner for construction, security, legal services, healthcare, land verification,Material Suppliers,Finance assistance and maintenance solutions.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Get Started</a>
-                <a href="#services" class="btn btn-outline">Learn More</a>
-            </div>
+            <p class="reveal">Your One-Stop Solution for Construction, Security, Legal, Medical, Land Verification, Repair, Finance, Material Supply, and Support Services.</p>
+            <a href="#services" class="btn btn-primary reveal">Explore Services</a>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
         </div>
     </header>
+    <div class="hero-controls">
+    <button class="hero-nav-btn" id="prev-hero-slide">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    
+    <div class="hero-dots">
+        <div class="hero-dot active" data-slide="0"></div>
+        <div class="hero-dot" data-slide="1"></div>
+        <div class="hero-dot" data-slide="2"></div>
+        <div class="hero-dot" data-slide="3"></div>
+        <div class="hero-dot" data-slide="4"></div>
+    </div>
+    
+    <button class="hero-nav-btn" id="next-hero-slide">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+</div>
 
     <section id="services" class="section-pad">
         <div class="container">
